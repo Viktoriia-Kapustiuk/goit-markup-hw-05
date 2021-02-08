@@ -60,7 +60,7 @@
             <div class="container">
                 <div class="hero-side">
                     <h1 class="title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-                    <button class="modal-btn" type="button">Заказать услугу</button>
+                    <button class="modal-btn "data-modal-open type="button">Заказать услугу</button>
                 </div>
             </div>
             
@@ -101,15 +101,28 @@
                 <h2 class="about-us-title">Чем мы занимаемся</h2>
                 <ul class="about-us-list list">
                     <li class="about-us-list-item">
-                    <img class="about-us-list-item-img" src="./images/Images1/about1-о.jpg"
-                        alt="разработчик печатает текст">
+                        <div class="about-us-img">
+                            <img class="about-us-list-item-img" src="./images/Images1/about1-о.jpg" alt="работа на компьютере">
+                        </div>
+                        <div class="product-label">
+                            <h3 class="label-text">Десктопные приложения</h3>
+                        </div>
                     </li>
                     <li class="about-us-list-item">
-                    <img class="about-us-list-item-img" src="./images/Images1/about2-o.jpg"
-                        alt="разработчик смотрит на экран с телефонами">
+                        <div class="about-us-img">
+                            <img class="about-us-list-item-img" src="./images/Images1/about2-o.jpg" alt="рука с телефоном">
+                        </div>
+                        <div class="product-label">
+                            <h3 class="label-text">Мобильные приложения</h3>
+                        </div>
                     </li>
                     <li class="about-us-list-item">
-                    <img class="about-us-list-item-img" src="./images/Images1/about3-о.jpg" alt="картинка на планшете">
+                        <div>
+                            <img class="about-us-list-item-img" src="./images/Images1/about3-о.jpg" alt="планшет с мозаикой">
+                        </div>
+                        <div class="product-label">
+                            <h3 class="label-text">Дизайнерские решения</h3>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -394,6 +407,14 @@
                 </div>
         </div>
     </footer>
+    <div class="backdrop is-hidden " data-modal>
+        <div class="modal">
+            <button class="close-btn  " data-modal-close type="button">
+                <img class="icon-close" src="./images/close-black-18dp (2) 1 (1).svg" alt="закрыть">
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 
 </body>
 
