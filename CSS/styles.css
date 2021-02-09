@@ -692,6 +692,9 @@ img {
   align-items: baseline;
 }
 
+.logotype {
+  animation-duration: 1000ms;
+}
 .logotype.logotype-dark-theme {
   display: inline-block;
   margin-bottom: 20px;
