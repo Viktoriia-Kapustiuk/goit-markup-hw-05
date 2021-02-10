@@ -59,6 +59,7 @@ img {
   text-decoration: none;
   letter-spacing: 0.03em;
   font-style: normal;
+  animation-duration: 1000ms;
 }
 .header .logotype {
   margin-right: 93px;
