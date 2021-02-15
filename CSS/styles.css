@@ -518,11 +518,11 @@ img {
   background-color: var(--accent-color);
   color: var(--white-text-color);
 }
-.icon-img {
+.icon-close {
   display: flex;
   fill: currentColor;
-  height: 20px;
-  width: 20px;
+  height: 11px;
+  width: 11px;
 }
 
 /* Our Clients */
