@@ -769,10 +769,19 @@ img {
 }
 
 /* footer-icons */
+
 .footer-title {
   color: var(--white-text-color);
   margin-bottom: 30px;
+
+  font-family: var(--text-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  color: var(--white-text-color);
 }
 
 .footer-icons {
